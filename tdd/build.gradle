@@ -1,0 +1,4 @@
+evaluationDependsOn(':app')
+ext.androidProject = 'app'
+apply plugin: 'cobertura' // add if you want code coverage
+apply plugin: 'com.kageiit.robojava'
